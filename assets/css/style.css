@@ -17699,3 +17699,23 @@ h3.cart-page-title {
 .category-menu{
   top: 100%;
 }
+.product-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%; /* You can adjust the width as needed */
+}
+
+.product-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* This limits it to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5; /* Adjust line height to control spacing between lines */
+  max-width: 100%; /* You can adjust the width as needed */
+  white-space: normal;
+}
+
