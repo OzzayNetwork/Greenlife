@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Norda - Minimal eCommerce HTML Template
+    Template Name: Green Life - Crop Protection Africa
     Version: 1.2
 
 -----------------------------------------------------------------------------------
@@ -17653,4 +17653,30 @@ h3.cart-page-title {
 }
 .order-tracking-content .order-tracking-form .order-track-btn a:hover {
   background-color: #ff2f2f;
+}
+.kev-secondary{
+  background-color: #f6f6f6 !important;
+  background: #f6f6f6 !important;
+}
+.banner-img{
+  position: relative;
+  z-index: ;
+}
+
+.banner-img::after{
+  position: absolute;
+  top: 0;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  background: linear-gradient(to right, #ADD8E6, transparent);
+  background: linear-gradient(to right, rgba(46, 139, 87, 1), rgba(46, 139, 87, 0));
+  background: linear-gradient(to right, rgba(32, 178, 170, 0.2), rgba(32, 178, 170, 0));
+  z-index: 0;
+}
+.text-primary-kev{
+  color: #f16926 !important;
 }
