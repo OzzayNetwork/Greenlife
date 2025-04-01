@@ -17680,3 +17680,22 @@ h3.cart-page-title {
 .text-primary-kev{
   color: #f16926 !important;
 }
+.banner-wrap .banner-img.banner-img-border {
+  border: 1px solid #00968847;
+}
+.main-categori-wrap > a{
+  color: white;
+  background: #468707;
+    padding: 25px 14px 25px 24px;
+    padding: 28px 20px 28px 20px;
+    line-height: inherit;
+}
+.header-bottom{
+  background: #6aae273d;
+}
+.header-middle-padding-1{
+  padding-bottom: 20px;
+}
+.category-menu{
+  top: 100%;
+}
