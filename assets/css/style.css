@@ -17674,7 +17674,8 @@ h3.cart-page-title {
   background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
   background: linear-gradient(to right, #ADD8E6, transparent);
   background: linear-gradient(to right, rgba(46, 139, 87, 1), rgba(46, 139, 87, 0));
-  background: linear-gradient(to right, rgba(32, 178, 170, 0.2), rgba(32, 178, 170, 0));
+  background: linear-gradient(to right, #00ffdf, rgb(255 255 255 / 49%));
+  background: linear-gradient(to right, #edf8f7, rgb(255 255 255 / 49%));
   z-index: 0;
 }
 .text-primary-kev{
