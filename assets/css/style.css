@@ -17720,3 +17720,18 @@ h3.cart-page-title {
   white-space: normal;
 }
 
+.kev-input {
+  border: 1px solid #e8e8e8;
+  height: 50px;
+  background-color: transparent;
+  padding: 15px;
+  color: #1f2226;
+  font-size: 14px;
+}
+.mx-0{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.mb-15{
+  margin-bottom: 15px !important;
+}
