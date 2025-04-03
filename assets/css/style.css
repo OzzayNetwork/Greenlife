@@ -17735,3 +17735,20 @@ h3.cart-page-title {
 .mb-15{
   margin-bottom: 15px !important;
 }
+.linkedin{
+  background-color: #0a66c2;
+}
+.home-price {
+  font-size: 28px;
+    font-weight: 500;
+    font-family: "Heebo", sans-serif;
+}
+.home-price .new-price{
+  color: #ff2f2f;
+}
+.home-price .old-price{
+  text-decoration: line-through;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 15px;
+}
