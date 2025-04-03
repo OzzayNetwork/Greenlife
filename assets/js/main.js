@@ -724,15 +724,15 @@
     $(function() {
         sliderrange.slider({
             range: true,
-            min: 16,
-            max: 400,
-            values: [0, 300],
+            min: 100,
+            max: 10000,
+            values: [0, 10000],
             slide: function(event, ui) {
-                amountprice.val("$" + ui.values[0] + " - $" + ui.values[1]);
+                amountprice.val("KES " + ui.values[0] + " - KES " + ui.values[1]);
             }
         });
-        amountprice.val("$" + sliderrange.slider("values", 0) +
-            " - $" + sliderrange.slider("values", 1));
+        amountprice.val("KES " + sliderrange.slider("values", 0) +
+            " - KES " + sliderrange.slider("values", 1));
     });
     
     /*----------------------------
