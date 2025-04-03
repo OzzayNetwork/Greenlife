@@ -1051,6 +1051,9 @@
         e.preventDefault();
         $('.curr-dropdown-active').slideToggle(900);
     });
+
+     // Get the current year dynamically and update the footer year
+     document.getElementById("footer-year").innerText = new Date().getFullYear();
     
     
 })(jQuery);
